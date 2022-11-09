@@ -1,0 +1,42 @@
+.nominee {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    background-color: #009b86;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 8px;
+    padding: 20px 0px;
+    text-align: center;
+  }
+  .nominee--hovered {
+    background-color: #34ac9c; 
+    color:#cccccc;
+  }
+  .nominee--selected {
+    background-color: #099bb3; 
+  }
+  .nominee button {
+    margin-top: 20px;
+    width: 100px;
+    
+  }
+  .nominee button:hover {
+    cursor: pointer;
+  }
+  .nominee h3 {
+    width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border:none; 
+  
+  }
+  .nominee_image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  
+  }
+  

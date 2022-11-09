@@ -1,0 +1,26 @@
+.modal {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 50vh;
+    width: 75vw;
+    background: #0d2436;
+    border-radius: 4px;
+    border: 1px solid white;
+  }
+  .modal .close {
+    font-weight: bold;
+    padding: 5px;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+  }
+  .modal .close:hover {
+    cursor: pointer;
+    color: #cccccc;
+  }
+  
